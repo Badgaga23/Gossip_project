@@ -1,0 +1,7 @@
+<h3>Bonjour voici les auteurs</h3>
+
+<a href="/">Ma page d'accueil</a>
+<% @user .each do |u|%>
+<p><%=u.first_name%></p>
+<p><%=u.last_name%></p>
+<%end%>
